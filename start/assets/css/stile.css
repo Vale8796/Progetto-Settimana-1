@@ -1,0 +1,169 @@
+html, body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41;
+    width: 100%;
+    
+    
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3;  
+}
+h1 {
+    font-size: 1.5em;
+    margin-top: 15px;
+    text-align: center;
+}
+header {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+header div img {
+    width: 35%;
+}
+section {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+section p {
+    padding: 10px;
+}
+section div a:link {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    border-radius: 4px; 
+}
+section div a:visited {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    border-radius: 4px;
+}
+
+.description {
+    text-align: center;
+    padding: 15px;
+    padding-top: 20px;
+}
+.description p {
+    font-size: 20px;
+    padding: 10px;
+}
+.img{
+    text-align: center;     
+}
+.round {
+    border-radius: 100%;
+}
+.comments {
+    background-color: #f04c2f;
+    color: white;
+    text-align: center; 
+    padding: 30px;
+    padding-top: 20px;
+}
+.comments h2 {
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+}
+blockquote {
+    font-style: italic;
+    font-size: 0.9rem;
+    padding: 20px;
+}
+cite h2 {
+    font-weight: normal;
+    font-size: 20px;
+}
+cite h4 {
+    font-size: 15px;
+}
+aside {
+    text-align: center;
+} 
+
+aside {
+    padding: 20px;
+}
+aside img {
+    width: 100%;
+}
+aside div {
+    border: 1px solid #dee1e3;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #25a2c3;
+    text-align: center;
+    padding-top: 30px;
+    line-height: normal;
+    padding-bottom: 60px;
+}
+footer h2 {
+    font-size: 25px;
+    color: white;
+    padding-bottom: 20px;
+}
+footer a:link {
+    font-size: 20px;
+    color: #c8e7f0;
+}
+.fa-phone-square-alt:before {
+    content: "\f87b";
+    color: #c8e7f0; 
+}
+.fa-envelope-square:before {
+    content: "\f199";
+    color: #c8e7f0; 
+}
+.fa-external-link-square-alt:before {
+    content: "\f360";
+    color: #c8e7f0;
+}
+address {
+    color: #c8e7f0;
+    font-size: 20px;
+}
+footer p {
+    color: #c8e7f0;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+footer p a:link  {
+    color: #c8e7f0;
+    font-size: 15px;
+}
+footer a:visited {
+    color: #c8e7f0;
+}
+hr {
+    margin-top: 40px;
+    font-style: 1px solid white;
+    width: 200px;
+}
+
+
